@@ -7,7 +7,7 @@ export const Navbar: Component = () => {
       <div class="pl-3 flex-1">MyTimeline</div>
       <div class="flex-none">
         <button class="btn bg-zinc-800 hover:bg-zinc-900 no-animation border-0">
-          <Svg name="cov" />
+          <Svg name="cog" />
         </button>
       </div>
     </div>
