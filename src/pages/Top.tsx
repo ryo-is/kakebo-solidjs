@@ -3,7 +3,7 @@ import { Timeline } from '@components/Timeline';
 
 export const Top: Component = () => {
   return (
-    <div class="flex flex-col items-center justify-center text-md h-full">
+    <div class="flex flex-col text-md h-full pl-10">
       <Timeline />
     </div>
   );

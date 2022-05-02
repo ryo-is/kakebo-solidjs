@@ -5,6 +5,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.19.0
   autoprefixer: ^10.4.4
   daisyui: ^2.14.2
+  dayjs: ^1.11.1
   eslint: ^8.13.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.0.0
@@ -21,6 +22,7 @@ specifiers:
 
 dependencies:
   daisyui: 2.14.2_081650f2f4dba35b17265937ab2a2ec0
+  dayjs: 1.11.1
   solid-app-router: 0.3.2_solid-js@1.3.13
   solid-js: 1.3.13
 
@@ -846,6 +848,10 @@ packages:
       tailwindcss: 3.0.24
     transitivePeerDependencies:
       - ts-node
+    dev: false
+
+  /dayjs/1.11.1:
+    resolution: {integrity: sha512-ER7EjqVAMkRRsxNCC5YqJ9d9VQYuWdGt7aiH2qA5R5wt8ZmWaP2dLUSIK6y/kVzLMlmh1Tvu5xUf4M/wdGJ5KA==}
     dev: false
 
   /debug/4.3.4:
